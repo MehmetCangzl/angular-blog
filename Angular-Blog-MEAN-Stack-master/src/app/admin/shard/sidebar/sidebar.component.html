@@ -1,0 +1,37 @@
+<div class="navbar">
+    <div class="top">
+        <mat-icon [inline]='true'>notifications_none</mat-icon>
+    </div>
+    <div class="user">
+        <img src="https://www.ihy-ihealthyou.com/Admin/Res/imgs/admin.png" alt="">
+        <h4 class="name">admin</h4>
+        <p class="mail">admin@gmail.com</p>
+    </div>
+    <div class="menu">
+        <div class="menu-head">
+            <span>dashboard</span>
+        </div>
+        <div class="menu-item">
+            <button mat-button class="menu-button" [routerLink]="['/dashboard']">
+                <mat-icon>dashboard</mat-icon>
+                <span>Anasayfa</span>
+            </button>
+            <button mat-button class="menu-button" [routerLink]="['/posts']">
+                <mat-icon>message</mat-icon>
+                <span>Mesajlar</span>
+            </button>
+            <button mat-button class="menu-button">
+                <mat-icon>comment</mat-icon>
+                <span>yorumlar</span>
+            </button>
+            <button mat-button class="menu-button">
+                <mat-icon>pages</mat-icon>
+                <span>Sayfalar</span>
+            </button>
+            <button mat-button class="menu-button">
+                <mat-icon>settings</mat-icon>
+                <span>Ayarlar</span>
+            </button>
+        </div>
+    </div>
+</div>
